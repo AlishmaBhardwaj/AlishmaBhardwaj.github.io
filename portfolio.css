@@ -12,6 +12,9 @@ a{
     color: blue;
     text-decoration: none;
 }
+hr{
+    background-color: black;
+}
 a:hover{
     color: crimson;
     text-decoration: none;
@@ -44,18 +47,23 @@ h3{
     float: left;
 }
 .name{
-    font:bold underline arial;
-    font-size: 25px;
-    
+     font-family: Arial,Helvetica,sans-serif;
+    font-size:25px;
+    margin:10px 100px;  
 }
-.title {
+
+
+.head {
+    font-size: 22px;
+    text-align: left;
+    margin: 20px 100px;
+    margin-left: 250px;
     font: underline sans-serif lighter;
     color:grey;
 }
-
 .content {
     color:black;
-    float:left;
+    margin-left: 300px;
+    margin-right: 50px;
     text-align: justify;
 }
-
