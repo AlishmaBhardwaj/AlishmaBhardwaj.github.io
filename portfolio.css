@@ -44,15 +44,14 @@ h1{
 }
 h2{
     color:#075aab;
-        margin: 2.5rem 0rem 2.5rem 0rem;
+    margin: 2.5rem 0rem 1rem 0rem;
 }
 h3{
     margin-top: 2rem;
 }
 #image{
     margin-top: 20px;
-    width: 600px;
-    height: 400px;
+    
 } 
 #u{
     color: blue;
@@ -91,19 +90,21 @@ h3{
 
 
 @media screen and ( min-width: 1081px ) {
-img.responsive { width: 400px; }
+img.responsive { width: 600px;height: 400px;}
 }
 @media screen and ( max-width: 1024px ) {
-img.responsive { width: 300px; }
+img.responsive { width: 500px;height:350px; }
 }
 @media screen and ( max-width: 800px ) {
-img.responsive { width: 200px; }
+img.responsive { width: 400px; height:300px; }
 }
-@media screen and ( max-width: 360px ) {
-img.responsive { width: 300px; }
+@media screen and ( max-width: 450px ) {
+img.responsive { width: 300px;height: 200px; }
 }
-@media screen and ( max-width: 200px ) {
-img.responsive { width: 150px; }
+@media screen and ( max-width: 350px ) {
+    img.responsive { width: 200px; height: 100px; }
+}
+@media screen and ( max-width: 250px ) {
+img.responsive { width: 150px; height: auto; }
 }
 
-img.responsive { height: auto; }
