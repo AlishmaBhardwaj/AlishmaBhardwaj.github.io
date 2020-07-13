@@ -24,8 +24,6 @@ body{ width: 100%; }
 body{ width: 100%; }
 }
 
-img.responsive { height: auto; }
-
 footer{
     margin-top: 2rem;
     margin-bottom:  2rem;
@@ -52,6 +50,7 @@ h3{
     margin-top: 2rem;
 }
 #image{
+    margin-top: 20px;
     width: 600px;
     height: 400px;
 } 
