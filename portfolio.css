@@ -40,11 +40,11 @@ a:hover{
     text-decoration: none;
 }
 h1{
-    margin: 3rem 0rem 0.5rem 0rem;
+    margin: 3rem 0rem 1.0rem 0rem;
 }
 h2{
     color:#075aab;
-    margin: 2.5rem 0rem 1rem 0rem;
+    margin: 2.5rem 0rem 0.5rem 0rem;
 }
 h3{
     margin-top: 2rem;
