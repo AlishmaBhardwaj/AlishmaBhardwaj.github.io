@@ -107,7 +107,3 @@ img.responsive { width: 300px;height: 200px; }
 img.responsive { width: 150px; height: auto; }
 }
 
-
-.resume {
-overflow-x: hidden;
-}
