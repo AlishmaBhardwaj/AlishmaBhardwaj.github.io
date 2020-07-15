@@ -1,5 +1,5 @@
 body{
-    background-color: cornsilk;
+    background-color: rgba(0,0,255,0.1);
     color:black;
     text-align: center;
     font-family: Arial,Helvetica,sans-serif;
@@ -8,7 +8,6 @@ body{
 
 @media screen and ( min-width: 1081px ) {
 body{ width: 100%;
-      background-color: rgba(0,0,255,0.1);
     }
 }
 @media screen and ( max-width: 1024px ) {
@@ -40,11 +39,11 @@ a:hover{
     text-decoration: none;
 }
 h1{
-    margin: 3rem 0rem 1.0rem 0rem;
+    margin: 3rem 0rem 0.5rem 0rem;
 }
 h2{
     color:#075aab;
-    margin: 2.5rem 0rem 0.5rem 0rem;
+    margin: 2.5rem 0rem 1rem 0rem;
 }
 h3{
     margin-top: 2rem;
@@ -108,3 +107,7 @@ img.responsive { width: 300px;height: 200px; }
 img.responsive { width: 150px; height: auto; }
 }
 
+
+.resume {
+overflow-x: hidden;
+}
